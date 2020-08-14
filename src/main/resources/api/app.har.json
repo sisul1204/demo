@@ -1,0 +1,508 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "startedDateTime": "2020-05-13T07:41:51.807Z",
+        "time": 76.71799999661744,
+        "request": {
+          "method": "POST",
+          "url": "https://work.weixin.qq.com/api/devtools/devhandler.php?tid=67&access_token=WxmG25fxngPWy7adq7QM82sGRdAVm99km4gXYLQkxli_pwcKU9Ez6B3Eb9eV7p5DonBm2mWLwEmUGeHb5phBYBFR8E9j52wt4WFhcFM8kI0MEVBBj5RxDQnD96IZB6LAGWmZ4p--TCx3jrrOoYKp_jIJZ0c-m1xj76NpCZJ5fnfHxwp3s-aEPX4Iat7TDx-seAGGOvAU_CrhjnCGIrTjOA&f=json",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":authority",
+              "value": "work.weixin.qq.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":path",
+              "value": "/api/devtools/devhandler.php?tid=67&access_token=WxmG25fxngPWy7adq7QM82sGRdAVm99km4gXYLQkxli_pwcKU9Ez6B3Eb9eV7p5DonBm2mWLwEmUGeHb5phBYBFR8E9j52wt4WFhcFM8kI0MEVBBj5RxDQnD96IZB6LAGWmZ4p--TCx3jrrOoYKp_jIJZ0c-m1xj76NpCZJ5fnfHxwp3s-aEPX4Iat7TDx-seAGGOvAU_CrhjnCGIrTjOA&f=json"
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "accept",
+              "value": "application/json, text/javascript, */*; q=0.01"
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36"
+            },
+            {
+              "name": "origin",
+              "value": "https://work.weixin.qq.com"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "referer",
+              "value": "https://work.weixin.qq.com/api/devtools/devtool.php"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "zh-CN,zh;q=0.9"
+            },
+            {
+              "name": "cookie",
+              "value": "RK=+AqhvRcpTf; ptcz=eea5c59d5161639a2530685183c9693ba0d297b01556d95400e3147270d0d277; pgv_pvid=6973189009; pgv_pvi=536669184; o_cookie=766178770; pac_uid=1_766178770; tvfe_boss_uuid=eb6c8b7a757a7b9d; ied_qq=o0766178770; wwrtx.i18n_lan=zh; _ga=GA1.2.amp--svhsHLF1146YItBOGlmxA; Hm_lvt_9364e629af24cb52acc78b43e8c9f77d=1588728243,1588992864,1588992873,1588993118; pgv_info=ssid=s5287114372"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "tid",
+              "value": "67"
+            },
+            {
+              "name": "access_token",
+              "value": "WxmG25fxngPWy7adq7QM82sGRdAVm99km4gXYLQkxli_pwcKU9Ez6B3Eb9eV7p5DonBm2mWLwEmUGeHb5phBYBFR8E9j52wt4WFhcFM8kI0MEVBBj5RxDQnD96IZB6LAGWmZ4p--TCx3jrrOoYKp_jIJZ0c-m1xj76NpCZJ5fnfHxwp3s-aEPX4Iat7TDx-seAGGOvAU_CrhjnCGIrTjOA"
+            },
+            {
+              "name": "f",
+              "value": "json"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "RK",
+              "value": "+AqhvRcpTf",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ptcz",
+              "value": "eea5c59d5161639a2530685183c9693ba0d297b01556d95400e3147270d0d277",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "pgv_pvid",
+              "value": "6973189009",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "pgv_pvi",
+              "value": "536669184",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "o_cookie",
+              "value": "766178770",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "pac_uid",
+              "value": "1_766178770",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "tvfe_boss_uuid",
+              "value": "eb6c8b7a757a7b9d",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ied_qq",
+              "value": "o0766178770",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "wwrtx.i18n_lan",
+              "value": "zh",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.2.amp--svhsHLF1146YItBOGlmxA",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "Hm_lvt_9364e629af24cb52acc78b43e8c9f77d",
+              "value": "1588728243,1588992864,1588992873,1588993118",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "pgv_info",
+              "value": "ssid=s5287114372",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 13 May 2020 07:41:51 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=UTF-8"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "x-powered-by",
+              "value": "PHP/7.0.10"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 790,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 728
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.1740000005587934,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.26499999999999996,
+          "wait": 73.92199999889266,
+          "receive": 0.3569999971659854,
+          "_blocked_queueing": 1.8500000005587935
+        },
+        "serverIPAddress": "59.37.116.113",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "6",
+                "url": "https://work.weixin.qq.com/api/devtools/assets/js/jquery-1.11.1.min.js",
+                "lineNumber": 2,
+                "columnNumber": 26509
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "6",
+                "url": "https://work.weixin.qq.com/api/devtools/assets/js/jquery-1.11.1.min.js",
+                "lineNumber": 2,
+                "columnNumber": 23126
+              },
+              {
+                "functionName": "",
+                "scriptId": "8",
+                "url": "https://work.weixin.qq.com/api/devtools/assets/js/devtool.js",
+                "lineNumber": 139,
+                "columnNumber": 10
+              },
+              {
+                "functionName": "dispatch",
+                "scriptId": "6",
+                "url": "https://work.weixin.qq.com/api/devtools/assets/js/jquery-1.11.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 17660
+              },
+              {
+                "functionName": "q.handle",
+                "scriptId": "6",
+                "url": "https://work.weixin.qq.com/api/devtools/assets/js/jquery-1.11.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 14333
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "83586"
+      },
+      {
+        "startedDateTime": "2020-05-13T07:41:51.887Z",
+        "time": 114.2729999992298,
+        "request": {
+          "method": "GET",
+          "url": "https://work.weixin.qq.com/api/devtools/assets/image/style-dev-center.png",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":authority",
+              "value": "work.weixin.qq.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":path",
+              "value": "/api/devtools/assets/image/style-dev-center.png"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36"
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "image"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "no-cors"
+            },
+            {
+              "name": "referer",
+              "value": "https://work.weixin.qq.com/api/devtools/assets/css/dev-center.css?v=20161017"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "zh-CN,zh;q=0.9"
+            },
+            {
+              "name": "cookie",
+              "value": "RK=+AqhvRcpTf; ptcz=eea5c59d5161639a2530685183c9693ba0d297b01556d95400e3147270d0d277; pgv_pvid=6973189009; pgv_pvi=536669184; o_cookie=766178770; pac_uid=1_766178770; tvfe_boss_uuid=eb6c8b7a757a7b9d; ied_qq=o0766178770; wwrtx.i18n_lan=zh; _ga=GA1.2.amp--svhsHLF1146YItBOGlmxA; Hm_lvt_9364e629af24cb52acc78b43e8c9f77d=1588728243,1588992864,1588992873,1588993118; pgv_info=ssid=s5287114372"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "RK",
+              "value": "+AqhvRcpTf",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ptcz",
+              "value": "eea5c59d5161639a2530685183c9693ba0d297b01556d95400e3147270d0d277",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "pgv_pvid",
+              "value": "6973189009",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "pgv_pvi",
+              "value": "536669184",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "o_cookie",
+              "value": "766178770",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "pac_uid",
+              "value": "1_766178770",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "tvfe_boss_uuid",
+              "value": "eb6c8b7a757a7b9d",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ied_qq",
+              "value": "o0766178770",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "wwrtx.i18n_lan",
+              "value": "zh",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.2.amp--svhsHLF1146YItBOGlmxA",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "Hm_lvt_9364e629af24cb52acc78b43e8c9f77d",
+              "value": "1588728243,1588992864,1588992873,1588993118",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "pgv_info",
+              "value": "ssid=s5287114372",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 13 May 2020 07:41:51 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "last-modified",
+              "value": "Mon, 12 Feb 2018 09:15:15 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"5a815b23-c488\""
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 50312,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 48927
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.004999990215525,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.175,
+          "wait": 59.083000005745326,
+          "receive": 53.01000000326894,
+          "_blocked_queueing": 1.668999990215525
+        },
+        "serverIPAddress": "59.37.116.113",
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "High",
+        "_resourceType": "image",
+        "connection": "83586"
+      }
+    ]
+  }
+}

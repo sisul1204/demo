@@ -1,0 +1,10 @@
+agentId: "1000009"
+secret: "aqI7NIn3TDQW0L7VgEkoy1mOcO0ppcb7dS1LSGrvlAc"
+corpid: "ww27cd49cb54067c52"
+contactsecret: "aqI7NIn3TDQW0L7VgEkoy1mOcO0ppcb7dS1LSGrvlAc"
+current: test
+env:
+  dev:
+    "qyapi.weixin.qq.com": "qyapi.weixin.qq.com"
+  test:
+    "qyapi.weixin.qq.com": "59.37.116.113"
